@@ -1,0 +1,17 @@
+.windows-alert {
+    position: fixed;
+    z-index: 999;
+    font-family: "Segoe UI";
+    background-color: white;
+
+    &__title {
+        height: 25px;
+        background-color: red;
+        display: flex;
+        flex-flow: row nowrap;
+
+        & > img {
+            height: 100%;
+        }
+    }
+}
